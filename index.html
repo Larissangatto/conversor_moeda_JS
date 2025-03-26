@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="ultimoResultado.js"></script>
+    <title>Conversor de moedas🪙💱</title>
+</head>
+<body>
+    <main>
+
+        <h1> Conversor de moedas🪙💱 </h1>
+            
+        <div class="entrada">
+            <label>De:</label>
+            <input type="number" value="1" class="valor" onchange="converter()"/>
+            <select class="moeda" onchange="converter()">
+                <option>BTC</option>
+            </select>
+        </div>
+        
+        <div class="saida">
+            <label>Para:</label>  
+                    <input type="number" value="" readonly class ="valor"/>
+            <select class="moeda" onchange="converter()">
+                <option>USDT</option>
+            </select>
+
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
