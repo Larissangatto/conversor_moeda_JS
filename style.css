@@ -38,11 +38,14 @@ h1 {
     gap: 10px;
 }
 .valor,.moeda {
-    width: 20%;
-    font-size: 30px;
+    width: 40%;
+    font-size: 25px;
 }
 @media (max-width: 480px) {
     .valor, .moeda {
         width: 100%; 
     }
+}
+label{
+    font-size:25px;
 }
