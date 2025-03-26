@@ -22,18 +22,24 @@ main{
     padding: 2em;
     border-radius: 1em;  
 }
-.entrada, .saida{
-    
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.entrada, .saida {
     display: flex;
     align-items: center;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
 }
 .valor,.moeda {
-    width: 200px;
+    width: 20%;
+    font-size: 30px;
 }
 @media (max-width: 480px) {
     .valor, .moeda {
