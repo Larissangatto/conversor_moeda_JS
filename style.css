@@ -17,17 +17,26 @@ body{
     align-items: center;
 }
 main{
+    max-width: 90%;
     background-color: rgb(38, 14, 60);
     padding: 2em;
     border-radius: 1em;  
 }
 .entrada, .saida{
+    
     display: flex;
     align-items: center;
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .valor,.moeda {
     width: 200px;
+}
+@media (max-width: 480px) {
+    .valor, .moeda {
+        width: 100%; 
     }
+}
